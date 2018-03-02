@@ -1,0 +1,22 @@
+index:
+    path:     /
+    defaults: { _controller: UserBundle:Default:index }
+Admin:
+    path:     /Dashboard
+    defaults: { _controller: UserBundle:Default:dashboard  }
+departements:
+    path:     /departements
+    defaults: { _controller: UserBundle:Default:departements  }
+evenements:
+    path:     /evenements
+    defaults: { _controller: UserBundle:Default:evenements  }
+forum:
+    path:     /forum
+    defaults: { _controller: UserBundle:Default:forum  }
+reclamations:
+    path:     /reclamations
+    defaults: { _controller: UserBundle:Default:reclamations  }
+contacts:
+    path:     /contacts
+    defaults: { _controller: UserBundle:Default:contacts  }
+
